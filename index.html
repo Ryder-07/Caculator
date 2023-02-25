@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Graduate&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="h-screen w-full flex justify-center items-center">
+      <main
+        class="box h-[600px] w-[300px] bg-[#121E27] border-0 rounded-[25px] overflow-hidden shadow-md"
+      >
+        <div class="h-[200px] w-[300px] flex items-end mb-[10px]">
+          <input
+            type="text"
+            name="calc"
+            id="field"
+            class="text-[2rem] h-[30%] w-[300px] px-[13px] bg-[#121E27] border-none outline-none text-right text-white"
+            id="calc"
+          />
+        </div>
+        <div
+          class="cont text-white h-[400px] w-full text-center justify-items-center p-[5px]"
+        >
+          <div
+            class="key17 h-[140px] w-[60px] border-2-none rounded-[10px] grid place-items-center bg-[#005DB2] cursor-pointer hover:opacity-[0.7]"
+          >
+            <span
+              class="text-center h-full w-full grid place-items-center text-[1.8rem] text-[#A5E3F9]"
+              >=</span
+            >
+          </div>
+          <div
+            class="key h-[60px] w-[135px] border-2-none rounded-[10px] grid place-items-center bg-[#303136] cursor-pointer hover:opacity-[0.7]"
+          >
+            <span
+              class="text-center h-full w-full grid place-items-center text-[1.3rem] text-[#28A5FA]"
+            >
+              0</span
+            >
+          </div>
+          <div
+            class="key1 h-[60px] w-[60px] border-2-none rounded-[10px] grid place-items-center bg-[#5F6060] cursor-pointer hover:opacity-[0.7]"
+          >
+            <span
+              class="text-center h-full w-full grid place-items-center text-[1.3rem]"
+            >
+              AC</span
+            >
+          </div>
+          <div
+            class="key2 h-[60px] w-[60px] border-2-none rounded-[10px] grid place-items-center bg-[#5F6060] cursor-pointer hover:opacity-[0.7]"
+          >
+            <span
+              class="text-center h-full w-full grid place-items-center text-[1.3rem]"
+            >
+              DEL</span
+            >
+          </div>
+          <div
+            class="key3 h-[60px] w-[60px] border-2-none rounded-[10px] grid place-items-center bg-[#005DB2] cursor-pointer hover:opacity-[0.7]"
+          >
+            <span
+              class="text-center h-full w-full grid place-items-center text-[1.8rem] text-[#A5E3F9]"
+            >
+              /</span
+            >
+          </div>
+          <div
+            class="key4 h-[60px] w-[60px] border-2-none rounded-[10px] grid place-items-center bg-[#005DB2] cursor-pointer hover:opacity-[0.7]"
+          >
+            <span
+              class="text-center h-full w-full grid place-items-center text-[1.8rem] text-[#A5E3F9]"
+            >
+              *</span
+            >
+          </div>
+          <div
+            class="key5 h-[60px] w-[60px] border-2-none rounded-[10px] grid place-items-center bg-[#303136] cursor-pointer hover:opacity-[0.7]"
+          >
+            <span
+              class="text-center h-full w-full grid place-items-center text-[1.3rem] text-[#28A5FA]"
+            >
+              7</span
+            >
+          </div>
+          <div
+            class="key7 h-[60px] w-[60px] border-2-none rounded-[10px] grid place-items-center bg-[#303136] cursor-pointer hover:opacity-[0.7]"
+          >
+            <span
+              class="text-center h-full w-full grid place-items-center text-[1.3rem] text-[#28A5FA]"
+            >
+              8</span
+            >
+          </div>
+          <div
+            class="key6 h-[60px] w-[60px] border-2-none rounded-[10px] grid place-items-center bg-[#303136] cursor-pointer hover:opacity-[0.7]"
+          >
+            <span
+              class="text-center h-full w-full grid place-items-center text-[1.3rem] text-[#28A5FA]"
+            >
+              9</span
+            >
+          </div>
+          <div
+            class="key8 h-[60px] w-[60px] border-2-none rounded-[10px] grid place-items-center bg-[#005DB2] cursor-pointer hover:opacity-[0.7]"
+          >
+            <span
+              class="text-center h-full w-full grid place-items-center text-[1.8rem] text-[#A5E3F9]"
+            >
+              -</span
+            >
+          </div>
+          <div
+            class="key9 h-[60px] w-[60px] border-2-none rounded-[10px] grid place-items-center bg-[#303136] cursor-pointer hover:opacity-[0.7]"
+          >
+            <span
+              class="text-center h-full w-full grid place-items-center text-[1.3rem] text-[#28A5FA]"
+            >
+              4</span
+            >
+          </div>
+          <div
+            class="key10 h-[60px] w-[60px] border-2-none rounded-[10px] grid place-items-center bg-[#303136] cursor-pointer hover:opacity-[0.7]"
+          >
+            <span
+              class="text-center h-full w-full grid place-items-center text-[1.3rem] text-[#28A5FA]"
+            >
+              5</span
+            >
+          </div>
+          <div
+            class="key11 h-[60px] w-[60px] border-2-none rounded-[10px] grid place-items-center bg-[#303136] cursor-pointer hover:opacity-[0.7]"
+          >
+            <span
+              class="text-center h-full w-full grid place-items-center text-[1.3rem] text-[#28A5FA]"
+            >
+              6</span
+            >
+          </div>
+          <div
+            class="key12 h-[60px] w-[60px] border-2-none rounded-[10px] grid place-items-center bg-[#005DB2] cursor-pointer hover:opacity-[0.7]"
+          >
+            <span
+              class="text-center h-full w-full grid place-items-center text-[1.8rem] text-[#A5E3F9]"
+            >
+              +</span
+            >
+          </div>
+          <div
+            class="key13 h-[60px] w-[60px] border-2-none rounded-[10px] grid place-items-center bg-[#303136] cursor-pointer hover:opacity-[0.7]"
+          >
+            <span
+              class="text-center h-full w-full grid place-items-center text-[1.3rem] text-[#28A5FA]"
+            >
+              1</span
+            >
+          </div>
+          <div
+            class="key14 h-[60px] w-[60px] border-2-none rounded-[10px] grid place-items-center bg-[#303136] cursor-pointer hover:opacity-[0.7]"
+          >
+            <span
+              class="text-center h-full w-full grid place-items-center text-[1.3rem] text-[#28A5FA]"
+            >
+              2</span
+            >
+          </div>
+          <div
+            class="key15 h-[60px] w-[60px] border-2-none rounded-[10px] grid place-items-center bg-[#303136] cursor-pointer hover:opacity-[0.7]"
+          >
+            <span
+              class="text-center h-full w-full grid place-items-center text-[1.3rem] text-[#28A5FA]"
+            >
+              3</span
+            >
+          </div>
+          <div
+            class="key16 h-[60px] w-[60px] border-2-none rounded-[10px] grid place-items-center bg-[#303136] cursor-pointer hover:opacity-[0.7]"
+          >
+            <span
+              class="text-center h-full w-full grid place-items-center text-[1.3rem] text-[#28A5FA]"
+            >
+              .</span
+            >
+          </div>
+        </div>
+      </main>
+    </section>
+  </body>
+  <script>
+    let x = document.getElementById("field");
+    buttons = document.querySelectorAll("span");
+    let screen = "";
+    for (i of buttons) {
+      i.addEventListener("click", (e) => {
+        text = e.target.innerText;
+        console.log(text);
+
+        if (text == "DEL") {
+          screen = screen.substring(0, screen.length - 1);
+          x.value = screen;
+        } 
+        else if(text=='AC'){
+            screen='';
+            x.value=screen;
+        }
+        else if (text == "=") {
+          x.value = eval(screen);
+        } else {
+          screen += text;
+          x.value = screen;
+        }
+      });
+    }
+  </script>
+</html>
