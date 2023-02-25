@@ -1,0 +1,60 @@
+
+body{
+  font-family: 'Graduate', cursive;
+}
+.cont {  display: grid;
+    /* background-color: red; */
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "key1 key2 key3 key4"
+      "key5 key6 key7 key8"
+      "key9 key10 key11 key12"
+      "key13 key14 key15 key17"
+      "key key key16 key17";
+  }
+  
+  .key17 { grid-area: key17; }
+  
+  .key { grid-area: key; }
+  
+  .key1 { grid-area: key1; }
+  
+  .key2 { grid-area: key2; }
+  
+  .key3 { grid-area: key3; }
+  
+  .key4 { grid-area: key4; }
+  
+  .key5 { grid-area: key5; }
+  
+  .key7 { grid-area: key7; }
+  
+  .key6 { grid-area: key6; }
+  
+  .key8 { grid-area: key8; }
+  
+  .key9 { grid-area: key9; }
+  
+  .key10 { grid-area: key10; }
+  
+  .key11 { grid-area: key11; }
+  
+  .key12 { grid-area: key12; }
+  
+  .key13 { grid-area: key13; }
+  
+  .key14 { grid-area: key14; }
+  
+  .key15 { grid-area: key15; }
+  
+  .key16 { grid-area: key16; }
+  
+  section{
+    background: #373B44;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(-45deg, #4286f4, #3b4b70); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  }
